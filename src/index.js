@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.scss';
 import App from './App';
+import ThemeContextProvider from './context/ThemeContext';
 import reportWebVitals from './reportWebVitals';
-import { BrowserRouter } from 'react-router-dom'
+import './style/index.scss';
 
 ReactDOM.render(
   <React.StrictMode>
-    <BrowserRouter>
+    <ThemeContextProvider>
       <App />
-    </BrowserRouter>
+    </ThemeContextProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
