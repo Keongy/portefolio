@@ -1,13 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+@import url("//db.onlinewebfonts.com/t/371213c6129c24324f5aa2e2e61319af.woff2");
 
-$font-1: "Poppins", sans-serif;
+$font-1: "Google Sans", sans-serif;
+$font-2: "Poppins", sans-serif;
 
-$color-1: #b0eeff;
-$color-2: #f7f7f7;
-$color-3: #282c34;
-$color-4: rgb(32, 35, 42);
-$color-5: #d4f2fa;
-$color-6: #333;
+//LIGHT THEME
+$bg-light: #edf9fe;
+$title-light: #001c55;
+$text-light: #7f8daa;
+
+//DARK THEME
+$bg-dark: #001c55;
+$title-dark: #edf9fe;
+$text-dark: #7f8daa;
 
 * {
     box-sizing: border-box;
@@ -16,21 +21,14 @@ $color-6: #333;
 }
 
 .app {
-    height: 600px;
-    margin: 0;
     font-family: $font-1;
-    background-color: #282c34;
     transition: all 1s ease-out;
 }
 
-.app-light {
-    background-color: $color-1;
-    color: red;
-}
-
-.app-dark {
-    background-color: $color-6;
-    color: red;
+.container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
 }
 
 header {
@@ -38,4 +36,32 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 20px 10px;
+}
+
+//THEME LIGTH
+.bg-light {
+    background-color: $bg-light;
+    color: red;
+}
+
+.title-light {
+    color: $title-light;
+}
+
+.text-light {
+    color: $text-light;
+}
+
+//THEME DARK
+.bg-dark {
+    background-color: $bg-dark;
+    color: red;
+}
+
+.title-dark {
+    color: $title-dark;
+}
+
+.text-dark {
+    color: $text-dark;
 }

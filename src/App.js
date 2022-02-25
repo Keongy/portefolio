@@ -11,6 +11,7 @@ import Projects from "./pages/Projects";
 import Theme from './components/Theme';
 import { ThemeContext } from './context/ThemeContext';
 import { useContext } from 'react';
+import Lang from './components/Lang';
 
 function App() {
 
@@ -18,22 +19,25 @@ function App() {
 
 
   return (
-    <div className={theme ? 'app app-light' : 'app app-dark'}>
-      <BrowserRouter>
-        <header>
-          <Logo />
-          <Navbar />
-          <Theme />
-        </header>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/education" element={<Education />} />
-          <Route path="/experience" element={<Experience />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="*" element={<Notfound />} />
-        </Routes>
-      </BrowserRouter>
+    <div className={theme ? 'app bg-light' : 'app bg-dark'}>
+      <div className="container">
+        <BrowserRouter>
+          <header>
+            <Logo />
+            <Navbar />
+            <Theme />
+            <Lang />
+          </header>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/education" element={<Education />} />
+            <Route path="/experience" element={<Experience />} />
+            <Route path="/projects" element={<Projects />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="*" element={<Notfound />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
     </div>
 
   );
