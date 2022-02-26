@@ -53,5 +53,13 @@
             font-size: 56px;
             font-weight: 400;
         }
+
+        ul {
+            display: flex;
+        }
+        li {
+            margin: 10px;
+            list-style: none;
+        }
     }
 }
