@@ -19,8 +19,8 @@ function App() {
 
 
   return (
-    <div className={theme ? 'app bg-light' : 'app bg-dark'}>
-      <div className="container">
+    <div className={theme ? 'app theme-bg-light' : 'app theme-bg-dark'}>
+      <div className="container-fluid">
         <BrowserRouter>
           <header>
             <Logo />

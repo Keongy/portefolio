@@ -1,4 +1,4 @@
-import React, { useContext } from 'react';
+import { useContext } from 'react';
 import { ThemeContext } from '../context/ThemeContext';
 
 const DarkMode = () => {
@@ -8,12 +8,10 @@ const DarkMode = () => {
 
 
     return (
-        <button
-            onClick={toggleTheme}
-            className={theme ? "light" : "dark"}
-        >
-            {theme ? "Dark" : "Light"}
-        </button>
+        <div className="form-check form-switch">
+            <input className="form-check-input" type="checkbox" id="flexSwitchCheckDefault" onClick={toggleTheme} />
+        </div>
+        // <button className='btn btn-outline-primary' onClick={toggleTheme}>{theme ? "Dark" : "Light"}</button>
     );
 };
 

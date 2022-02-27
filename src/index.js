@@ -4,6 +4,7 @@ import App from './App';
 import LangContextProvider from './context/LangContext';
 import ThemeContextProvider from './context/ThemeContext';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './style/index.scss';
 
 ReactDOM.render(
