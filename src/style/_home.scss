@@ -1,54 +1,28 @@
 .home {
-    .resume {
-        h1 {
-            margin-top: 80px;
-            font-size: 70px;
-            line-height: 1.1;
-        }
-
-        h2 {
-            font-size: 30px;
-            font-style: italic;
-            line-height: 2;
-        }
-
-        p {
-            margin-top: 40px;
-            font-size: 40px;
-            line-height: 40px;
-            margin-right: 40px;
-            font-weight: 700;
-        }
+    .name {
+        font-size: 70px;
     }
 
-    .title-section {
-        text-align: center;
-        margin: 4rem auto;
-        h1 {
-            font-size: 60px;
-        }
+    .presentation-text {
+        font-size: 40px;
+        line-height: 40px;
     }
 
-    .whatIDo {
-        text-align: center;
-        margin-top: 50px;
-        h1 {
-            font-size: 60px;
-        }
+    .whatIdo {
+        font-size: 60px;
     }
 
-    .development {
-        h1 {
-            font-size: 56px;
-            font-weight: 400;
-        }
+    .subtitle {
+        font-size: 56px;
+    }
 
-        ul {
-            display: flex;
-        }
-        li {
-            margin: 10px;
-            list-style: none;
-        }
+    .inline {
+        list-style: none;
+        display: flex;
+    }
+
+    li {
+        margin: 10px 10px 10px 0;
+        font-size: 19px;
     }
 }

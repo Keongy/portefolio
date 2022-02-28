@@ -1,14 +1,19 @@
 .navbar {
+    font-size: 19px;
+    .active {
+        font-weight: bold;
+    }
+
     position: relative;
     ul {
         display: flex;
-        list-style: none;
     }
     li a {
+        color: $title-dark;
         text-decoration: none;
         padding: 20px;
         &:hover {
-            background-color: red;
+            background-color: $text-light;
         }
     }
 }

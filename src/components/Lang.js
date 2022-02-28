@@ -6,11 +6,9 @@ const Lang = () => {
     const { toggleLang, lang } = useContext(LangContext)
 
     return (
-        <button
-            onClick={toggleLang}
-        >
-            {lang ? "FR" : "EN"}
-        </button>
+        <div className="flag-lang" onClick={toggleLang}>
+            {lang ? <img src="https://img.icons8.com/color/40/000000/france-circular.png" alt='français' /> : <img src="https://img.icons8.com/color/40/000000/great-britain-circular.png" alt='english' />}
+        </div>
     );
 };
 

@@ -20,13 +20,15 @@ function App() {
 
   return (
     <div className={theme ? 'app theme-bg-light' : 'app theme-bg-dark'}>
-      <div className="container-fluid">
+      <div className="container-fluid p-0">
         <BrowserRouter>
           <header>
             <Logo />
-            <Navbar />
-            <Theme />
-            <Lang />
+            <div className="right-side">
+              <Navbar />
+              <Theme />
+              <Lang />
+            </div>
           </header>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -39,7 +41,6 @@ function App() {
         </BrowserRouter>
       </div>
     </div>
-
   );
 }
 export default App;

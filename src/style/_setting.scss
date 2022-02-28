@@ -2,7 +2,6 @@
 @import url("//db.onlinewebfonts.com/t/371213c6129c24324f5aa2e2e61319af.woff2");
 
 $font-1: "Google Sans", sans-serif;
-$font-2: "Poppins", sans-serif;
 
 //LIGHT THEME
 $bg-light: #edf9fe;
@@ -18,17 +17,16 @@ $text-dark: #7f8daa;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: $font-1;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
 }
 
 .app {
-    font-family: $font-1;
     transition: all 1s ease-out;
-}
-
-.container {
-    width: 90%;
-    height: 100%;
-    margin: 0 auto;
 }
 
 header {
@@ -36,6 +34,12 @@ header {
     align-items: center;
     justify-content: space-between;
     padding: 20px 10px;
+    margin-bottom: 2rem;
+}
+
+.right-side {
+    display: flex;
+    align-items: center;
 }
 
 //THEME LIGTH
@@ -62,4 +66,14 @@ header {
 
 .theme-text-dark {
     color: $text-dark;
+}
+
+//Bootstrap custom
+
+.container-fluid {
+    width: 90%;
+}
+
+.row {
+    margin: 0;
 }

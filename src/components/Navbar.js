@@ -1,24 +1,24 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     return (
         <div className='navbar'>
-            <ul>
+            <ul className='m-0 me-5'>
                 <li>
-                    <Link to="/">Home</Link>
+                    <NavLink to="/" className={({ isActive }) => isActive ? 'active' : ''}>Home</NavLink>
                 </li>
                 <li>
-                    <Link to="/education">Education</Link>
+                    <NavLink to="/education" className={({ isActive }) => isActive ? 'active' : ''}>Education</NavLink>
                 </li>
                 <li>
-                    <Link to="/experience">Experience</Link>
+                    <NavLink to="/experience" className={({ isActive }) => isActive ? 'active' : ''}>Experience</NavLink>
                 </li>
                 <li>
-                    <Link to="/projects">Projects</Link>
+                    <NavLink to="/projects" className={({ isActive }) => isActive ? 'active' : ''}>Projects</NavLink>
                 </li>
                 <li>
-                    <Link to="/contact">Contact</Link>
+                    <NavLink to="/contact" className={({ isActive }) => isActive ? 'active' : ''}>Contact</NavLink>
                 </li>
             </ul>
         </div>
