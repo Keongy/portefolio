@@ -25,6 +25,15 @@ ul {
     padding: 0;
 }
 
+.inline {
+    list-style: none;
+    display: flex;
+}
+
+.subtitle {
+    font-size: 56px;
+}
+
 .app {
     transition: all 1s ease-out;
 }
