@@ -1,13 +1,12 @@
 .navbar {
     font-size: 19px;
     .active {
-        font-weight: bold;
+        font-weight: bolder;
+        position: relative;
     }
 
     position: relative;
-    ul {
-        display: flex;
-    }
+
     li a {
         color: $title-dark;
         text-decoration: none;

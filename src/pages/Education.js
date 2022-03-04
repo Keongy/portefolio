@@ -14,7 +14,6 @@ const Education = () => {
     const selectedLang = lang ? language.FR.home : language.EN.home
 
 
-    console.log(language.FR.education.degreesCard)
 
     return (
         <div className='education'>

@@ -1,11 +1,8 @@
-import { useContext } from 'react';
+import React, { useContext } from 'react';
 import { ThemeContext } from '../context/ThemeContext';
 
-const DarkMode = () => {
-
-
+const DarkModeSwitch = () => {
     const { toggleTheme } = useContext(ThemeContext)
-
 
     return (
         <div className="form-check form-switch">
@@ -14,4 +11,4 @@ const DarkMode = () => {
     );
 };
 
-export default DarkMode;
+export default DarkModeSwitch;
