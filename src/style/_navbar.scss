@@ -2,13 +2,9 @@
     font-size: 19px;
     .active {
         font-weight: bolder;
-        position: relative;
     }
 
-    position: relative;
-
     li a {
-        color: $title-dark;
         text-decoration: none;
         padding: 20px;
         &:hover {

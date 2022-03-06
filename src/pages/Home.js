@@ -11,7 +11,6 @@ const Home = () => {
     const themeColor = theme ? 'light' : 'dark'
     const selectedLang = lang ? language.FR.home : language.EN.home
 
-
     return (
         <div className='home'>
             <div className="row align-items-center my-5 ">

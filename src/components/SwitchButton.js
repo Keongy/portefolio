@@ -7,8 +7,8 @@ const SwitchButton = () => {
 
 
     return (
-        <div className="switch-button">
-            <input type="checkbox" name="checkbox" class="switch" />
+        <div className="switch-button pt-1 me-3">
+            <input type="checkbox" name="checkbox" className="switch" onClick={toggleTheme} />
         </div>
     );
 };
