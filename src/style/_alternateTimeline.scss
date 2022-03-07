@@ -1,0 +1,50 @@
+.timeline-year {
+    width: 130px;
+    text-align: center;
+    border: 1px solid $bg-dark-light;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    cursor: default;
+
+    &:hover {
+        background-color: $bg-dark-light;
+    }
+}
+
+.card-header {
+    cursor: pointer;
+}
+
+.chevron {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
+
+.odd {
+    left: 20px;
+}
+
+.even {
+    right: 20px;
+}
+
+.chevron-toggle {
+    transform: translateY(-50%) rotate(-180deg);
+    -webkit-transform: translateY(-50%) rotate(-180deg);
+    -moz-transform: translateY(-50%) rotate(-180deg);
+    -ms-transform: translateY(-50%) rotate(-180deg);
+    -o-transform: translateY(-50%) rotate(-180deg);
+}

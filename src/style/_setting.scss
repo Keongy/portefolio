@@ -5,11 +5,13 @@ $font-1: "Google Sans", sans-serif;
 
 //LIGHT THEME
 $bg-light: #edf9fe;
+$bg-light-light: #001c55;
 $title-light: #001c55;
 $text-light: #7f8daa;
 
 //DARK THEME
 $bg-dark: #001c55;
+$bg-dark-light: #1f4185;
 $title-dark: #edf9fe;
 $text-dark: #7f8daa;
 
@@ -56,6 +58,10 @@ header {
     background-color: $bg-light;
 }
 
+.theme-bg-light-light {
+    background-color: $bg-dark-light;
+}
+
 .theme-title-light {
     color: $title-light;
 }
@@ -67,6 +73,10 @@ header {
 //THEME DARK
 .theme-bg-dark {
     background-color: $bg-dark;
+}
+
+.theme-bg-light-dark {
+    background-color: $bg-dark-light;
 }
 
 .theme-title-dark {

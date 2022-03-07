@@ -13,9 +13,9 @@ const lang = {
             development: 'Développement'
         },
         education: {
-            education: 'Parcours',
+            education: 'Cursus',
             subtitle: 'Qualifications et certifications',
-            degreesReceived: 'Cursus',
+            degreesReceived: 'Diplômes',
             cardDegrees: [
                 {
                     title: 'Licence Informatique',
@@ -92,25 +92,55 @@ const lang = {
             experience: 'Experience',
             subtitle: 'Travail, stage et volontariat',
             resume: "J'ai travaillé avec de nombreuses startups en évolution en tant que développeur ML et DL, concepteur et architecte logiciel. J'ai également travaillé avec des entreprises bien établies, principalement en tant que développeur d'IA. J'aime organiser des événements et c'est pourquoi je suis également impliqué dans de nombreuses communautés open source en tant que représentant.",
-            step: [
+            timeline: [
                 {
-                    label: 'Licence Informatique',
-                    description: `Pour chaque campagne publicitaire que vous créez, vous pouvez contrôler le montant que vous êtes prêt à dépenser pour les clics et les conversions, les réseaux et les emplacements géographiques sur lesquels vous souhaitez diffuser vos annonces, et bien plus encore.`,
+                    title: 'Développeur web ',
+                    subtitle: 'OP-Consulting · Freelance',
+                    description: `Développeur freelance depuis mars 2021`,
                     year: '2022'
                 },
                 {
-                    label: 'Create an ad group',
+                    title: 'Chef de projet digital',
+                    subtitle: "Chef's Signature France",
                     description:
-                        "Un groupe d'annonces contient une ou plusieurs annonces qui ciblent un ensemble partagé de mots clés.",
-                    year: '2020'
+                        "Mise d'un place d'un projet de dark kitchen from scratch",
+                    year: '2021'
                 },
                 {
-                    label: 'Create an ad',
-                    description: `Essayez différents textes d'annonce pour voir ce qui attire le plus de clients,
-                    et découvrez comment améliorer vos annonces à l'aide de fonctionnalités telles que les extensions d'annonces.
-                    Si vous rencontrez des problèmes avec vos annonces, découvrez comment savoir si
-                    ils sont en cours d'exécution et comment résoudre les problèmes d'approbation.`,
+                    title: 'Développeur Front-End',
+                    subtitle: 'Mytip, Nice',
+                    description: `Stage de 6 mois en tant que Développeur web pour la refonte complète d'une application web sous vue.js. `,
                     year: '2019'
+                },
+                {
+                    title: 'Ingénieur commercial',
+                    subtitle: 'Cloud Eco, Sophia-antipolis',
+                    description: `Vente de solution telecom`,
+                    year: '2017'
+                },
+                {
+                    title: 'Responsable développement commercial',
+                    subtitle: 'Riviera Beach Magazine, St-tropez',
+                    description: `Responsable du développement commercialn notamment des partenaires...`,
+                    year: '2016'
+                },
+                {
+                    title: 'Account Manager',
+                    subtitle: 'Xerox, Monaco',
+                    description: `Manager de compte chez Xerox à Monaco`,
+                    year: '2015'
+                },
+                {
+                    title: 'Commercial',
+                    subtitle: 'Platinium habitat',
+                    description: `Vente de fenêtre etc...`,
+                    year: '2012'
+                },
+                {
+                    title: 'Commercial',
+                    subtitle: 'Atelier du Mistral',
+                    description: `Commercial en alternance dans un magasin de meuble sur messure`,
+                    year: '2010'
                 },
 
             ]
@@ -267,29 +297,58 @@ const lang = {
         experience: {
             experience: 'Experience',
             subtitle: 'Work, Internship and Volunteership',
-            resume: 'I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.',
-            step: [
+            resume: "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+            timeline: [
                 {
-                    label: 'Licence Informatique',
-                    description: `For each ad campaign that you create, you can control how much
-                            you're willing to spend on clicks and conversions, which networks
-                            and geographical locations you want your ads to show on, and more.`,
+                    title: 'web developer',
+                    subtitle: 'OP-Consulting · Freelance',
+                    description: `Developer freelance since mars 2021`,
                     year: '2022'
                 },
                 {
-                    label: 'Create an ad group',
+                    title: 'Chef de projet digital',
+                    subtitle: "Chef's Signature France",
                     description:
-                        'An ad group contains one or more ads which target a shared set of keywords.',
-                    year: '2020'
+                        "Mise d'un place d'un projet de dark kitchen from scratch",
+                    year: '2021'
                 },
                 {
-                    label: 'Create an ad',
-                    description: `Try out different ad text to see what brings in the most customers,
-                            and learn how to enhance your ads using features like ad extensions.
-                            If you run into any problems with your ads, find out how to tell if
-                            they're running and how to resolve approval issues.`,
+                    title: 'Développeur Front-End',
+                    subtitle: 'Mytip, Nice',
+                    description: `Stage de 6 mois en tant que Développeur web pour la refonte complète d'une application web sous vue.js. `,
                     year: '2019'
                 },
+                {
+                    title: 'Ingénieur commercial',
+                    subtitle: 'Cloud Eco, Sophia-antipolis',
+                    description: `Vente de solution telecom`,
+                    year: '2017'
+                },
+                {
+                    title: 'Responsable développement commercial',
+                    subtitle: 'Riviera Beach Magazine, St-tropez',
+                    description: `Responsable du développement commercialn notamment des partenaires...`,
+                    year: '2016'
+                },
+                {
+                    title: 'Account Manager',
+                    subtitle: 'Xerox, Monaco',
+                    description: `Manager de compte chez Xerox à Monaco`,
+                    year: '2015'
+                },
+                {
+                    title: 'Commercial',
+                    subtitle: 'Platinium habitat',
+                    description: `Vente de fenêtre etc...`,
+                    year: '2012'
+                },
+                {
+                    title: 'Commercial',
+                    subtitle: 'Atelier du Mistral',
+                    description: `Commercial en alternance dans un magasin de meuble sur messure`,
+                    year: '2010'
+                },
+
             ]
         },
         projects: {

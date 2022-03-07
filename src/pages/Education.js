@@ -35,7 +35,7 @@ const Education = () => {
                 </div>
             </div>
             <div className="row justify-content-center mt-5">
-                <div className="col-12 text-center mb-5">
+                <div className="col-12 text-center my-3">
                     <h1 className={`theme-title-${themeColor}`}>{selectedLang.degreesReceived}</h1>
                 </div>
                 {selectedLang.cardDegrees.map((elem, index) => {
@@ -51,7 +51,7 @@ const Education = () => {
                 })}
             </div>
             <div className="row py-5 text-light justify-content-between">
-                <div className="col-12 text-center">
+                <div className="col-12 text-center my-3">
                     <h1>Certifications</h1>
                 </div>
                 {selectedLang.certificationCard.map((elem, index) => {
