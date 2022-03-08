@@ -4,13 +4,13 @@
 $font-1: "Google Sans", sans-serif;
 
 //LIGHT THEME
-$bg-light: #edf9fe;
+$bg-light: #001c55;
 $bg-light-light: #001c55;
 $title-light: #001c55;
 $text-light: #7f8daa;
 
 //DARK THEME
-$bg-dark: #001c55;
+$bg-dark: #edf9fe;
 $bg-dark-light: #1f4185;
 $title-dark: #edf9fe;
 $text-dark: #7f8daa;
@@ -66,6 +66,10 @@ header {
     color: $title-light;
 }
 
+.theme-title-reverse-light {
+    color: $title-dark;
+}
+
 .theme-text-light {
     color: $text-light;
 }
@@ -83,6 +87,10 @@ header {
     color: $title-dark;
 }
 
+.theme-title-reverse-dark {
+    color: $title-light;
+}
+
 .theme-text-dark {
     color: $text-dark;
 }
@@ -95,4 +103,14 @@ header {
 
 .row {
     margin: 0;
+}
+
+.btn-primary {
+    background-color: $bg-dark-light;
+    border-color: $bg-dark-light;
+}
+
+.btn-primary:hover {
+    background-color: #2353b3;
+    border-color: $bg-dark-light;
 }

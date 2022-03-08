@@ -18,12 +18,8 @@
     overflow-y: hidden;
 }
 
-.btn-timeline {
-    color: white;
-
-    &:hover {
-        color: rgb(199, 199, 199);
-    }
+.show-more {
+    cursor: pointer;
 }
 
 .bottom {

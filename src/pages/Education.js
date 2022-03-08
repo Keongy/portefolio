@@ -10,7 +10,7 @@ const Education = () => {
 
     const { theme } = useContext(ThemeContext)
     const { lang } = useContext(LangContext)
-    const themeColor = theme ? 'light' : 'dark'
+    const themeColor = theme ? 'dark' : 'light'
     const selectedLang = lang ? language.FR.education : language.EN.education
 
 

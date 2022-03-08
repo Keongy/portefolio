@@ -146,10 +146,11 @@ const lang = {
             ]
         },
         projects: {
-            title: 'Projects',
-            resume: 'My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.',
+            title: 'Projets',
+            resume: "Mes projets utilisent une grande variété d'outils technologiques de pointe. Ma meilleure expérience consiste à créer des projets de science des données et à les déployer sur des applications Web à l'aide d'une infrastructure cloud.",
             card: [
                 {
+                    link: 'portefolio',
                     title: 'Portefolio',
                     description: 'Mon portefolio avec tout mes projets ainsi que mes expériences passées etc etc etc, ici tout est regroupé',
                     date: 'Crée le 02/03/20222',
@@ -159,6 +160,7 @@ const lang = {
                     ]
                 },
                 {
+                    link: 'app-note',
                     title: 'App-note',
                     description: 'Mon portefolio avec tout mes projets ainsi que mes expériences passées etc etc etc, ici tout est regroupé',
                     date: 'Crée le 02/03/20222',
@@ -168,6 +170,7 @@ const lang = {
                     ]
                 },
                 {
+                    link: 'infinite-gallery ',
                     title: 'infinite-gallery ',
                     description: 'Mon portefolio avec tout mes projets ainsi que mes expériences passées etc etc etc, ici tout est regroupé',
                     date: 'Crée le 02/03/20222',
@@ -177,6 +180,7 @@ const lang = {
                     ]
                 },
                 {
+                    link: 'twitch-clone',
                     title: 'twitch-clone',
                     description: 'Mon portefolio avec tout mes projets ainsi que mes expériences passées etc etc etc, ici tout est regroupé',
                     date: 'Crée le 02/03/20222',
@@ -186,6 +190,7 @@ const lang = {
                     ]
                 },
                 {
+                    link: 'ecommerce-with-redux',
                     title: 'ecommerce-with-redux',
                     description: 'Mon portefolio avec tout mes projets ainsi que mes expériences passées etc etc etc, ici tout est regroupé',
                     date: 'Crée le 02/03/20222',
@@ -195,6 +200,27 @@ const lang = {
                     ]
                 },
                 {
+                    link: 'ecommerce',
+                    title: 'ecommerce',
+                    description: 'Mon portefolio avec tout mes projets ainsi que mes expériences passées etc etc etc, ici tout est regroupé',
+                    date: 'Crée le 02/03/20222',
+                    logo: [
+                        'https://img.icons8.com/color/48/000000/html-5--v1.png',
+                        'https://img.icons8.com/color/48/000000/css3.png'
+                    ]
+                },
+                {
+                    link: 'auth-fire-base',
+                    title: 'auth-fire-base',
+                    description: 'Mon portefolio avec tout mes projets ainsi que mes expériences passées etc etc etc, ici tout est regroupé',
+                    date: 'Crée le 02/03/20222',
+                    logo: [
+                        'https://img.icons8.com/color/48/000000/html-5--v1.png',
+                        'https://img.icons8.com/color/48/000000/css3.png'
+                    ]
+                },
+                {
+                    link: 'marvel-quiz',
                     title: 'marvel-quiz',
                     description: 'Mon portefolio avec tout mes projets ainsi que mes expériences passées etc etc etc, ici tout est regroupé',
                     date: 'Crée le 02/03/20222',
@@ -352,7 +378,70 @@ const lang = {
             ]
         },
         projects: {
-
+            title: 'Projects',
+            resume: 'My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.',
+            card: [
+                {
+                    link: 'portefolio',
+                    title: 'Portefolio',
+                    description: 'Mon portefolio avec tout mes projets ainsi que mes expériences passées etc etc etc, ici tout est regroupé',
+                    date: 'Crée le 02/03/20222',
+                    logo: [
+                        'https://img.icons8.com/color/48/000000/html-5--v1.png',
+                        'https://img.icons8.com/color/48/000000/css3.png'
+                    ]
+                },
+                {
+                    link: 'app-note',
+                    title: 'App-note',
+                    description: 'Mon portefolio avec tout mes projets ainsi que mes expériences passées etc etc etc, ici tout est regroupé',
+                    date: 'Crée le 02/03/20222',
+                    logo: [
+                        'https://img.icons8.com/color/48/000000/html-5--v1.png',
+                        'https://img.icons8.com/color/48/000000/css3.png'
+                    ]
+                },
+                {
+                    link: 'infinite-gallery',
+                    title: 'infinite-gallery ',
+                    description: 'Mon portefolio avec tout mes projets ainsi que mes expériences passées etc etc etc, ici tout est regroupé',
+                    date: 'Crée le 02/03/20222',
+                    logo: [
+                        'https://img.icons8.com/color/48/000000/html-5--v1.png',
+                        'https://img.icons8.com/color/48/000000/css3.png'
+                    ]
+                },
+                {
+                    link: 'twitch-clone',
+                    title: 'twitch-clone',
+                    description: 'Mon portefolio avec tout mes projets ainsi que mes expériences passées etc etc etc, ici tout est regroupé',
+                    date: 'Crée le 02/03/20222',
+                    logo: [
+                        'https://img.icons8.com/color/48/000000/html-5--v1.png',
+                        'https://img.icons8.com/color/48/000000/css3.png'
+                    ]
+                },
+                {
+                    link: 'ecommerce-with-redux',
+                    title: 'ecommerce-with-redux',
+                    description: 'Mon portefolio avec tout mes projets ainsi que mes expériences passées etc etc etc, ici tout est regroupé',
+                    date: 'Crée le 02/03/20222',
+                    logo: [
+                        'https://img.icons8.com/color/48/000000/html-5--v1.png',
+                        'https://img.icons8.com/color/48/000000/css3.png'
+                    ]
+                },
+                {
+                    link: 'marvel-quiz',
+                    title: 'marvel-quiz',
+                    description: 'Mon portefolio avec tout mes projets ainsi que mes expériences passées etc etc etc, ici tout est regroupé',
+                    date: 'Crée le 02/03/20222',
+                    logo: [
+                        'https://img.icons8.com/color/48/000000/html-5--v1.png',
+                        'https://img.icons8.com/color/48/000000/css3.png'
+                    ]
+                }
+            ]
         }
     },
 }

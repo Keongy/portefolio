@@ -14,7 +14,7 @@ export default function AlternateTimeline() {
     const { theme } = useContext(ThemeContext)
 
     const timeline = lang ? language.FR.experience.timeline : language.EN.experience.timeline
-    const themeColor = theme ? 'light' : 'dark'
+    const themeColor = theme ? 'dark' : 'light'
 
 
     return (
