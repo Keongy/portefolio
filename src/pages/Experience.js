@@ -10,8 +10,11 @@ const Experience = () => {
     const [showTimeline, setShowTimeline] = useState(false)
     const { lang } = useContext(LangContext)
     const { theme } = useContext(ThemeContext)
+
     const steps = lang ? language.FR.experience : language.EN.experience
     const themeColor = theme ? 'dark' : 'light'
+    const timelinePart1 = lang ? language.FR.experience.timeline.part1 : language.EN.experience.timeline.part1
+    const timelinePart2 = lang ? language.FR.experience.timeline.part2 : language.EN.experience.timeline.part2
 
     const handleShowTimeline = () => {
         setShowTimeline(!showTimeline)
@@ -36,10 +39,12 @@ const Experience = () => {
                 </div>
             </div>
             <div className="row justify-content-center text-light mt-5 p-5">
-                <div className={`  ${showTimeline ? 'experience-timeline-hidden' : 'experience-timeline'} text-center col-8`}>
-                    <AlternateTimeline />
+                <div className={` text-center col-8`}>
+                    <AlternateTimeline timeline={timelinePart1} />
                 </div>
-
+                <div className={`text-center ${showTimeline ? 'experience-timeline-hidden' : 'experience-timeline'} col-8`}>
+                    <AlternateTimeline timeline={timelinePart2} />
+                </div>
                 <div className="div text-center mt-3">
                     <div className={`show-more theme-title-${themeColor}`} onClick={handleShowTimeline}>
                         {showTimeline ? 'Voir moins...' : 'Voir plus...'}

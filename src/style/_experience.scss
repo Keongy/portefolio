@@ -1,20 +1,20 @@
 .experience-timeline {
-    max-height: 480px;
+    max-height: 0px;
     overflow-y: hidden;
-    transition: max-height 0.2s;
-    -webkit-transition: max-height 0.2s;
-    -moz-transition: max-height 0.2s;
-    -ms-transition: max-height 0.2s;
-    -o-transition: max-height 0.2s;
+    transition: max-height 1s;
+    -webkit-transition: max-height 1s;
+    -moz-transition: max-height 1s;
+    -ms-transition: max-height 1s;
+    -o-transition: max-height 1s;
 }
 
 .experience-timeline-hidden {
     max-height: 1600px;
-    transition: max-height 0.2s;
-    -webkit-transition: max-height 0.2s;
-    -moz-transition: max-height 0.2s;
-    -ms-transition: max-height 0.2s;
-    -o-transition: max-height 0.2s;
+    transition: max-height 1s;
+    -webkit-transition: max-height 1s;
+    -moz-transition: max-height 1s;
+    -ms-transition: max-height 1s;
+    -o-transition: max-height 1s;
     overflow-y: hidden;
 }
 

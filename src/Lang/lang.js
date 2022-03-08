@@ -92,58 +92,61 @@ const lang = {
             experience: 'Experience',
             subtitle: 'Travail, stage et volontariat',
             resume: "J'ai travaillé avec de nombreuses startups en évolution en tant que développeur ML et DL, concepteur et architecte logiciel. J'ai également travaillé avec des entreprises bien établies, principalement en tant que développeur d'IA. J'aime organiser des événements et c'est pourquoi je suis également impliqué dans de nombreuses communautés open source en tant que représentant.",
-            timeline: [
-                {
-                    title: 'Développeur web ',
-                    subtitle: 'OP-Consulting · Freelance',
-                    description: `Développeur freelance depuis mars 2021`,
-                    year: '2022'
-                },
-                {
-                    title: 'Chef de projet digital',
-                    subtitle: "Chef's Signature France",
-                    description:
-                        "Mise d'un place d'un projet de dark kitchen from scratch",
-                    year: '2021'
-                },
-                {
-                    title: 'Développeur Front-End',
-                    subtitle: 'Mytip, Nice',
-                    description: `Stage de 6 mois en tant que Développeur web pour la refonte complète d'une application web sous vue.js. `,
-                    year: '2019'
-                },
-                {
-                    title: 'Ingénieur commercial',
-                    subtitle: 'Cloud Eco, Sophia-antipolis',
-                    description: `Vente de solution telecom`,
-                    year: '2017'
-                },
-                {
-                    title: 'Responsable développement commercial',
-                    subtitle: 'Riviera Beach Magazine, St-tropez',
-                    description: `Responsable du développement commercialn notamment des partenaires...`,
-                    year: '2016'
-                },
-                {
-                    title: 'Account Manager',
-                    subtitle: 'Xerox, Monaco',
-                    description: `Manager de compte chez Xerox à Monaco`,
-                    year: '2015'
-                },
-                {
-                    title: 'Commercial',
-                    subtitle: 'Platinium habitat',
-                    description: `Vente de fenêtre etc...`,
-                    year: '2012'
-                },
-                {
-                    title: 'Commercial',
-                    subtitle: 'Atelier du Mistral',
-                    description: `Commercial en alternance dans un magasin de meuble sur messure`,
-                    year: '2010'
-                },
-
-            ]
+            timeline: {
+                part1: [
+                    {
+                        title: 'Développeur web ',
+                        subtitle: 'OP-Consulting · Freelance',
+                        description: `Développeur freelance depuis mars 2021`,
+                        year: '2022'
+                    },
+                    {
+                        title: 'Chef de projet digital',
+                        subtitle: "Chef's Signature France",
+                        description:
+                            "Mise d'un place d'un projet de dark kitchen from scratch",
+                        year: '2021'
+                    },
+                    {
+                        title: 'Développeur Front-End',
+                        subtitle: 'Mytip, Nice',
+                        description: `Stage de 6 mois en tant que Développeur web pour la refonte complète d'une application web sous vue.js. `,
+                        year: '2019'
+                    },
+                    {
+                        title: 'Ingénieur commercial',
+                        subtitle: 'Cloud Eco, Sophia-antipolis',
+                        description: `Vente de solution telecom`,
+                        year: '2017'
+                    }
+                ],
+                part2: [
+                    {
+                        title: 'Responsable développement commercial',
+                        subtitle: 'Riviera Beach Magazine, St-tropez',
+                        description: `Responsable du développement commercialn notamment des partenaires...`,
+                        year: '2016'
+                    },
+                    {
+                        title: 'Account Manager',
+                        subtitle: 'Xerox, Monaco',
+                        description: `Manager de compte chez Xerox à Monaco`,
+                        year: '2015'
+                    },
+                    {
+                        title: 'Commercial',
+                        subtitle: 'Platinium habitat',
+                        description: `Vente de fenêtre etc...`,
+                        year: '2012'
+                    },
+                    {
+                        title: 'Commercial',
+                        subtitle: 'Atelier du Mistral',
+                        description: `Commercial en alternance dans un magasin de meuble sur messure`,
+                        year: '2010'
+                    }
+                ]
+            }
         },
         projects: {
             title: 'Projets',
@@ -230,6 +233,11 @@ const lang = {
                     ]
                 }
             ]
+        },
+        contact: {
+            title: 'Contactez-moi',
+            resume: "Je suis disponible sur presque tous les réseaux sociaux. Vous pouvez m'envoyer un message, je vous répondrai dans les 24 heures. Je peux vous aider avec le développement ML, AI, React, Android, Cloud et Opensource.",
+            button: 'Voir mon CV'
         }
     },
 
@@ -324,58 +332,61 @@ const lang = {
             experience: 'Experience',
             subtitle: 'Work, Internship and Volunteership',
             resume: "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
-            timeline: [
-                {
-                    title: 'web developer',
-                    subtitle: 'OP-Consulting · Freelance',
-                    description: `Developer freelance since mars 2021`,
-                    year: '2022'
-                },
-                {
-                    title: 'Chef de projet digital',
-                    subtitle: "Chef's Signature France",
-                    description:
-                        "Mise d'un place d'un projet de dark kitchen from scratch",
-                    year: '2021'
-                },
-                {
-                    title: 'Développeur Front-End',
-                    subtitle: 'Mytip, Nice',
-                    description: `Stage de 6 mois en tant que Développeur web pour la refonte complète d'une application web sous vue.js. `,
-                    year: '2019'
-                },
-                {
-                    title: 'Ingénieur commercial',
-                    subtitle: 'Cloud Eco, Sophia-antipolis',
-                    description: `Vente de solution telecom`,
-                    year: '2017'
-                },
-                {
-                    title: 'Responsable développement commercial',
-                    subtitle: 'Riviera Beach Magazine, St-tropez',
-                    description: `Responsable du développement commercialn notamment des partenaires...`,
-                    year: '2016'
-                },
-                {
-                    title: 'Account Manager',
-                    subtitle: 'Xerox, Monaco',
-                    description: `Manager de compte chez Xerox à Monaco`,
-                    year: '2015'
-                },
-                {
-                    title: 'Commercial',
-                    subtitle: 'Platinium habitat',
-                    description: `Vente de fenêtre etc...`,
-                    year: '2012'
-                },
-                {
-                    title: 'Commercial',
-                    subtitle: 'Atelier du Mistral',
-                    description: `Commercial en alternance dans un magasin de meuble sur messure`,
-                    year: '2010'
-                },
-
-            ]
+            timeline: {
+                part1: [
+                    {
+                        title: 'Développeur web ',
+                        subtitle: 'OP-Consulting · Freelance',
+                        description: `Développeur freelance depuis mars 2021`,
+                        year: '2022'
+                    },
+                    {
+                        title: 'Chef de projet digital',
+                        subtitle: "Chef's Signature France",
+                        description:
+                            "Mise d'un place d'un projet de dark kitchen from scratch",
+                        year: '2021'
+                    },
+                    {
+                        title: 'Développeur Front-End',
+                        subtitle: 'Mytip, Nice',
+                        description: `Stage de 6 mois en tant que Développeur web pour la refonte complète d'une application web sous vue.js. `,
+                        year: '2019'
+                    },
+                    {
+                        title: 'Ingénieur commercial',
+                        subtitle: 'Cloud Eco, Sophia-antipolis',
+                        description: `Vente de solution telecom`,
+                        year: '2017'
+                    }
+                ],
+                part2: [
+                    {
+                        title: 'Responsable développement commercial',
+                        subtitle: 'Riviera Beach Magazine, St-tropez',
+                        description: `Responsable du développement commercialn notamment des partenaires...`,
+                        year: '2016'
+                    },
+                    {
+                        title: 'Account Manager',
+                        subtitle: 'Xerox, Monaco',
+                        description: `Manager de compte chez Xerox à Monaco`,
+                        year: '2015'
+                    },
+                    {
+                        title: 'Commercial',
+                        subtitle: 'Platinium habitat',
+                        description: `Vente de fenêtre etc...`,
+                        year: '2012'
+                    },
+                    {
+                        title: 'Commercial',
+                        subtitle: 'Atelier du Mistral',
+                        description: `Commercial en alternance dans un magasin de meuble sur messure`,
+                        year: '2010'
+                    }
+                ]
+            }
         },
         projects: {
             title: 'Projects',
@@ -442,6 +453,11 @@ const lang = {
                     ]
                 }
             ]
+        },
+        contact: {
+            title: 'Contact Me',
+            resume: 'I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.',
+            button: 'See my resume'
         }
     },
 }
