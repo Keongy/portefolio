@@ -52,7 +52,7 @@ const Education = () => {
             </div>
             <div className="row py-5 text-light justify-content-between">
                 <div className="col-12 text-center my-3">
-                    <h1>Certifications</h1>
+                    <h1 className={`theme-title-${themeColor}`}>Certifications</h1>
                 </div>
                 {selectedLang.certificationCard.map((elem, index) => {
                     return <CardCertif

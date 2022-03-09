@@ -8,9 +8,40 @@ const lang = {
             contact: 'Contact'
         },
         home: {
-            resume: 'Une personne passionnée qui aime toujours travailler sur des produits de bout en bout qui développent des systèmes sociaux et techniques durables et évolutifs pour créer un impact.',
-            whatIDo: 'CE que je fais ?',
-            development: 'Développement'
+            resume: 'Une personne passionnée qui aime toujours en apprendre davantage sur le développement de projets durables et évolutifs pour créer un impact.',
+            whatIDo: 'Ce que je fais ?',
+            development: {
+                title: 'Développement',
+                skills: [
+                    {
+                        skill: "Création de site responsive en React.js"
+                    },
+                    {
+                        skill: "Developpement d'application scalable avec Reedux et Next.js"
+                    },
+                    {
+                        skill: "Utilisation de NPM et Node.js"
+                    }
+
+
+                ]
+            },
+            design: {
+                title: 'UI/UX Design',
+                skills: [
+                    {
+                        skill: "Concevoir une interface utilisateur très attrayante pour les applications mobiles et Web"
+                    },
+                    {
+                        skill: "Personnaliser les conceptions de logo et créer des logos à partir de zéro"
+                    },
+                    {
+                        skill: "Créer le flux des fonctionnalités de l'application pour optimiser l'expérience utilisateur"
+                    }
+
+
+                ]
+            }
         },
         education: {
             education: 'Cursus',
@@ -250,9 +281,40 @@ const lang = {
             contact: 'Contact'
         },
         home: {
-            resume: 'A passionate individual who always thrive to work on end to end products which develop sustainable and scalable social and technical systems to create impact.',
+            resume: 'A passionate person who always loves to learn more about developing sustainable and scalable projects to create impact.',
             whatIDo: 'What i do ?',
-            development: 'Développement'
+            development: {
+                title: 'Development',
+                skills: [
+                    {
+                        skill: "Building resposive website front end using React-Redux"
+                    },
+                    {
+                        skill: "Developing mobile applications using Flutter, React Native and solo android apps using Kotlin"
+                    },
+                    {
+                        skill: "Creating application backend in Node, Express & Flask"
+                    }
+
+
+                ]
+            },
+            design: {
+                title: 'UI/UX Design',
+                skills: [
+                    {
+                        skill: "Designing highly attractive user interface for mobile and web applications"
+                    },
+                    {
+                        skill: "Customizing logo designs and building logos from scratch"
+                    },
+                    {
+                        skill: "Creating the flow of application functionalities to optimize user experience"
+                    }
+
+
+                ]
+            }
         },
         education: {
             education: 'Education',
