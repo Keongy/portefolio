@@ -1,5 +1,4 @@
 import React from 'react';
-import '../style/_cardDegrees.scss';
 
 const CardDegrees = ({ themeColor, title, subtitle, year, logo, order }) => {
     return (

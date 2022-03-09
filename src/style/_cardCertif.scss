@@ -1,7 +1,6 @@
 .card-certif {
     background-color: transparent;
     border: 1px solid #043597;
-    margin: 10px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
@@ -9,12 +8,18 @@
     -o-border-radius: 5px;
     box-shadow: 5px 5px 5px #00000069;
 
+    a {
+        text-decoration: none;
+        color: $title-dark;
+    }
+
     .header {
         border-radius: 5px 5px 0 0;
         -webkit-border-radius: 5px 5px 0 0;
         -moz-border-radius: 5px 5px 0 0;
         -ms-border-radius: 5px 5px 0 0;
         -o-border-radius: 5px 5px 0 0;
+        background-color: $bg-dark-light;
     }
 
     .overlay {
@@ -29,15 +34,49 @@
         -ms-transition: all 0.2s ease-in-out;
         -o-transition: all 0.2s ease-in-out;
         &:hover {
-            background-color: rgba(0, 0, 0, 0.7);
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+    }
 
-            &::after {
-                content: "CERTFICATE";
-                width: 100%;
-                height: 100%;
-                display: flex;
-                justify-content: center;
-                align-items: center;
+    .fadeIn {
+        opacity: 0;
+        position: absolute;
+        z-index: 9999;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        letter-spacing: 0.15em;
+        background-color: rgba(0, 0, 0, 0.8);
+        transition: all 0.2s ease-in-out;
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        -ms-transition: all 0.2s ease-in-out;
+        -o-transition: all 0.2s ease-in-out;
+
+        h3 {
+            position: absolute;
+            top: 0;
+            transition: all 0.2s ease-in-out;
+            -webkit-transition: all 0.2s ease-in-out;
+            -moz-transition: all 0.2s ease-in-out;
+            -ms-transition: all 0.2s ease-in-out;
+            -o-transition: all 0.2s ease-in-out;
+        }
+
+        &:hover {
+            opacity: 1;
+
+            h3 {
+                top: 50%;
+                transform: translateY(-50%);
+                -webkit-transform: translateY(-50%);
+                -moz-transform: translateY(-50%);
+                -ms-transform: translateY(-50%);
+                -o-transform: translateY(-50%);
             }
         }
     }
