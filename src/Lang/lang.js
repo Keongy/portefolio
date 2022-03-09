@@ -14,13 +14,13 @@ const lang = {
                 title: 'Développement',
                 skills: [
                     {
-                        skill: "Création de site responsive en React.js"
+                        skill: "Développement d'applications web scalables en React.js"
                     },
                     {
-                        skill: "Developpement d'application scalable avec Reedux et Next.js"
+                        skill: "Gestion et adaptation des solutions techniques"
                     },
                     {
-                        skill: "Utilisation de NPM et Node.js"
+                        skill: "Respect des pratiques courantes d'optimisation"
                     }
 
 
@@ -30,13 +30,13 @@ const lang = {
                 title: 'UI/UX Design',
                 skills: [
                     {
-                        skill: "Concevoir une interface utilisateur très attrayante pour les applications mobiles et Web"
+                        skill: "Concevoir une interface utilisateur attrayante"
                     },
                     {
-                        skill: "Personnaliser les conceptions de logo et créer des logos à partir de zéro"
+                        skill: "Respect des méthodologies UX"
                     },
                     {
-                        skill: "Créer le flux des fonctionnalités de l'application pour optimiser l'expérience utilisateur"
+                        skill: "Compréhension des besoins utilisateurs"
                     }
 
 
@@ -96,37 +96,37 @@ const lang = {
                 {
                     img: 'https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/96/000000/external-udemycom-is-an-online-learning-and-teaching-platform-logo-shadow-tal-revivo.png',
                     title: 'Udemy ',
-                    subtitle: '- React.Js',
+                    subtitle: '- React.Js -',
                     background: 'bg-dark',
                     link: 'https://www.udemy.com/certificate/UC-9a3bfd0d-4ab5-4779-9329-b30bd38c1190/'
                 },
                 {
                     img: 'https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/96/000000/external-udemycom-is-an-online-learning-and-teaching-platform-logo-shadow-tal-revivo.png',
                     title: 'Udemy ',
-                    subtitle: '- Développeur web',
+                    subtitle: '- Développeur web -',
                     background: 'bg-dark',
                     link: 'https://www.udemy.com/certificate/UC-dd73713d-4b9a-493d-a113-1e347c073ac4/'
                 },
                 {
                     img: 'https://cdn.worldvectorlogo.com/logos/codingame-1.svg',
                     title: 'CodeinGame',
-                    subtitle: '- Challenge',
+                    subtitle: '- Challenges -',
                     background: 'bg-dark',
                     link: 'https://www.codingame.com/profile/78f1051bf8bad76d0afef3131c1b1f592260304'
                 },
                 {
                     img: 'https://docs.codewars.com/logo.svg',
                     title: 'Codewars',
-                    subtitle: '- Challenge',
+                    subtitle: '- Challenges -',
                     background: 'bg-dark',
                     link: 'https://www.codewars.com/users/Keongy'
                 },
             ],
         },
         experience: {
-            experience: 'Experience',
-            subtitle: 'Travail, stage et volontariat',
-            resume: "J'ai travaillé avec de nombreuses startups en évolution en tant que développeur ML et DL, concepteur et architecte logiciel. J'ai également travaillé avec des entreprises bien établies, principalement en tant que développeur d'IA. J'aime organiser des événements et c'est pourquoi je suis également impliqué dans de nombreuses communautés open source en tant que représentant.",
+            experience: 'Expérience',
+            subtitle: 'Travail et stage',
+            resume: "Après des études d'infographie, j'ai continué mon cursus dans le domaine du commerce. C'est en 2018 que j'ai décidé de me reconvertir dans un domaine qui me passionne : le développement informatique. J'ai commencé par un stage en tant que développeur web puis j'ai eu l'opportunité de mettre en place un projet de e-commerce. Je suis également développeur freelance.",
             timeline: {
                 part1: [
                     {
@@ -136,16 +136,16 @@ const lang = {
                         year: '2022'
                     },
                     {
-                        title: 'Chef de projet digital',
+                        title: 'Responsable digital',
                         subtitle: "Chef's Signature France",
                         description:
-                            "Mise d'un place d'un projet de dark kitchen from scratch",
+                            "Mise en place d'un projet de plateforme e-commerce reliant plusieurs restaurants / dark kitchen.",
                         year: '2021'
                     },
                     {
                         title: 'Développeur Front-End',
                         subtitle: 'Mytip, Nice',
-                        description: `Stage de 6 mois en tant que Développeur web pour la refonte complète d'une application web sous vue.js. `,
+                        description: `Stage de 6 mois en tant que Développeur web pour la refonte complète d'une application web sous Vue.js. `,
                         year: '2019'
                     },
                     {
@@ -159,25 +159,25 @@ const lang = {
                     {
                         title: 'Responsable développement commercial',
                         subtitle: 'Riviera Beach Magazine, St-tropez',
-                        description: `Responsable du développement commercialn notamment des partenaires...`,
+                        description: `Responsable du développement commercial.`,
                         year: '2016'
                     },
                     {
                         title: 'Account Manager',
                         subtitle: 'Xerox, Monaco',
-                        description: `Manager de compte chez Xerox à Monaco`,
+                        description: `Manager de comptes chez Xerox Monaco`,
                         year: '2015'
                     },
                     {
                         title: 'Commercial',
                         subtitle: 'Platinium habitat',
-                        description: `Vente de fenêtre etc...`,
+                        description: `Commercial dans la vente de fenêtres, climatisations...`,
                         year: '2012'
                     },
                     {
                         title: 'Commercial',
                         subtitle: 'Atelier du Mistral',
-                        description: `Commercial en alternance dans un magasin de meuble sur messure`,
+                        description: `Commercial en alternance dans un magasin de meubles sur mesure`,
                         year: '2010'
                     }
                 ]
@@ -185,7 +185,7 @@ const lang = {
         },
         projects: {
             title: 'Projets',
-            resume: "Mes projets utilisent une grande variété d'outils technologiques de pointe. Ma meilleure expérience consiste à créer des projets de science des données et à les déployer sur des applications Web à l'aide d'une infrastructure cloud.",
+            resume: "J'ai décidé de me spécialiser sur React.js. La majorité de mes projets sont conçus en utilisant ce language ainsi que Node.js et Npx create-react-app. J'ai également utilisé des API REST et d'autres outils tel que Bootstrap, Firebase, Redux...",
             card: [
                 {
                     link: 'portefolio',
@@ -271,7 +271,7 @@ const lang = {
         },
         contact: {
             title: 'Contactez-moi',
-            resume: "Je suis disponible sur presque tous les réseaux sociaux. Vous pouvez m'envoyer un message, je vous répondrai dans les 24 heures. Je peux vous aider avec le développement ML, AI, React, Android, Cloud et Opensource.",
+            resume: "Je suis actuellement 'Open to work'. Vous pouvez m'envoyer un message, je vous répondrai dans les 24 heures.",
             button: 'Voir mon CV'
         }
     },

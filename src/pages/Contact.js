@@ -17,7 +17,11 @@ const Contact = () => {
                 </div>
                 <div className="col-12 col-lg-6 text-center order-1 order-lg-2 mt-5">
                     <h1 className={`subtitle theme-title-${themeColor} m-3`}>{contact.title}</h1>
-                    <p className={`theme-text-${themeColor} m-3`}>{contact.resume}</p>
+                    <div className="row justify-content-center">
+                        <div className="col-10">
+                            <p className={`theme-text-${themeColor} m-3`}>{contact.resume}</p>
+                        </div>
+                    </div>
                     <button className="contact-button">{contact.button}</button>
                 </div>
             </div>

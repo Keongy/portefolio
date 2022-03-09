@@ -21,7 +21,11 @@ const Projects = () => {
                 </div>
                 <div className="col-12 col-lg-6 text-center order-1 order-lg-2 mb-5 pb-5">
                     <h1 className={`theme-title-${themeColor} subtitle mb-4`}>{project.title}</h1>
-                    <p className={`theme-text-${themeColor}`}>{project.resume}</p>
+                    <div className="row justify-content-center">
+                        <div className="col-10">
+                            <p className={`theme-text-${themeColor}`}>{project.resume}</p>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div className="row justify-content-center mt-5 pt-5">
