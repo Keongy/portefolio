@@ -11,4 +11,23 @@
             background-color: $text-light;
         }
     }
+
+    .navbar-toggler {
+        background-color: $bg-both-light;
+    }
+
+    .navbar-toggler:focus {
+        box-shadow: none;
+    }
+
+    @media (max-width: 991px) {
+        .navbar-collapse {
+            text-align: center;
+            background-color: $bg-light;
+        }
+
+        .theme-title-dark {
+            color: $title-light;
+        }
+    }
 }

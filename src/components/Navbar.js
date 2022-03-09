@@ -40,7 +40,7 @@ const Navbar = () => {
                             <NavLink to="/contact" className='nav-link px-4'><span className={`theme-title-${themeColor}`}>{selectedLang.contact}</span></NavLink>
                         </li>
                     </ul>
-                    <div className="d-flex fixed-top">
+                    <div className="d-flex justify-content-center">
                         <SwitchButton />
                         <Lang />
                     </div>
