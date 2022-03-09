@@ -1,27 +1,54 @@
-.experience-timeline {
-    max-height: 0px;
-    overflow-y: hidden;
-    transition: max-height 1s;
-    -webkit-transition: max-height 1s;
-    -moz-transition: max-height 1s;
-    -ms-transition: max-height 1s;
-    -o-transition: max-height 1s;
-}
+.experience {
+    ul {
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
 
-.experience-timeline-hidden {
-    max-height: 1600px;
-    transition: max-height 1s;
-    -webkit-transition: max-height 1s;
-    -moz-transition: max-height 1s;
-    -ms-transition: max-height 1s;
-    -o-transition: max-height 1s;
-    overflow-y: hidden;
-}
+    .experience-timeline {
+        max-height: 0px;
+        overflow-y: hidden;
+        transition: max-height 1s;
+        -webkit-transition: max-height 1s;
+        -moz-transition: max-height 1s;
+        -ms-transition: max-height 1s;
+        -o-transition: max-height 1s;
+    }
 
-.show-more {
-    cursor: pointer;
-}
+    .experience-timeline-hidden {
+        max-height: 1600px;
+        transition: max-height 1s;
+        -webkit-transition: max-height 1s;
+        -moz-transition: max-height 1s;
+        -ms-transition: max-height 1s;
+        -o-transition: max-height 1s;
+        overflow-y: hidden;
+    }
 
-.bottom {
-    height: 5vh;
+    .show-more {
+        cursor: pointer;
+        background-color: $bg-dark-light;
+        border: 1px solid $bg-dark-light;
+        font-weight: 500;
+        line-height: 1.1;
+        padding: 13px 22px;
+        margin-right: 0;
+        border-radius: 6px;
+        margin-top: 20px;
+        font-size: 18px;
+        letter-spacing: 2px;
+        color: $title-dark;
+
+        &:hover {
+            background-color: $bg-light;
+            transition: background-color 0.2s ease-in-out;
+            -webkit-transition: background-color 0.2s ease-in-out;
+            -moz-transition: background-color 0.2s ease-in-out;
+            -ms-transition: background-color 0.2s ease-in-out;
+            -o-transition: background-color 0.2s ease-in-out;
+        }
+    }
+
+    .bottom {
+        height: 5vh;
+    }
 }

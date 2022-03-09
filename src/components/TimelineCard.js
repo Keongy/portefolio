@@ -9,7 +9,7 @@ const TimelineCard = ({ item, index, uuid, themeColor }) => {
     }
 
     return (
-        <div className={`card theme-bg-light-${themeColor} w-100`}>
+        <div className={`card timeline-card theme-bg-light-${themeColor} w-100`}>
             <div className="card-header position-relative" data-bs-toggle="collapse" data-bs-target={`#card${uuid}`} aria-controls="card" onClick={handleToggleClick}>
                 <div className={`card-body theme-title-dark`}>
                     <h5 className="card-title">{item.title}</h5>
@@ -20,7 +20,7 @@ const TimelineCard = ({ item, index, uuid, themeColor }) => {
                 </div>
             </div>
             <div className="collapse" id={`card${uuid}`}>
-                <div className={`card card-body bg-transparent theme-text-${themeColor}`}>
+                <div className={`card card-timeline-body theme-text-${themeColor} p-3 px-4`}>
                     {item.description}
                 </div>
             </div>
