@@ -47,10 +47,6 @@ ul {
     display: flex;
 }
 
-.subtitle {
-    font-size: 48px;
-}
-
 .app {
     transition: all 1s ease-out;
 }
@@ -66,6 +62,30 @@ header {
 .right-side {
     display: flex;
     align-items: center;
+}
+
+// .display-1 {
+//     font-size: 64px;
+// }
+
+.display-2 {
+    font-size: 54px;
+}
+
+.display-3 {
+    font-size: 48px;
+}
+
+.display-4 {
+    font-size: 40px;
+}
+
+.display-4 {
+    font-size: 30px;
+}
+
+.display-5 {
+    font-size: 22px;
 }
 
 //THEME LIGTH
@@ -128,4 +148,64 @@ header {
 .btn-primary:hover {
     background-color: #2353b3;
     border-color: $bg-dark-light;
+}
+
+//MEDIA QUERIES
+
+.display-1 {
+    font-size: 30px;
+}
+
+.display-pseudo {
+    font-size: 25px;
+}
+
+.display-resume {
+    font-size: 16px;
+}
+
+.display-2 {
+    font-size: 30px;
+}
+
+.display-3 {
+    font-size: 30px;
+}
+
+.display-text {
+    font-size: 16px;
+}
+
+@media (min-width: 992px) {
+    .display-1 {
+        font-size: 50px;
+    }
+    .display-2 {
+        font-size: 45px;
+    }
+    .display-3 {
+        font-size: 40px;
+    }
+    .display-resume {
+        font-size: 20px;
+    }
+    .display-text {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .display-1 {
+        font-size: 70px;
+    }
+    .display-2 {
+        font-size: 60px;
+    }
+    .display-3 {
+        font-size: 56px;
+    }
+    .display-resume {
+        font-size: 40px;
+        line-height: 1.1em;
+    }
 }
