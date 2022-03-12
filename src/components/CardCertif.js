@@ -1,7 +1,7 @@
 const CardCertif = ({ themeColor, background, img, title, subtitle, link }) => {
 
     return (
-        <div className="col-xs-12 col-md-6 col-xl-3 p-3 m-0">
+        <div className="col-xs-12 col-md-6 col-xl-3 py-3 px-0 px-md-3 m-0">
             <div className="row position-relative card-certif justify-content-center m-0">
                 <a href={link} target='_blank' rel="noreferrer" className="p-0">
                     <div className={`col-12 position-relative header text-center  p-0`}>

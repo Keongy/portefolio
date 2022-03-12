@@ -168,7 +168,8 @@ header {
     font-size: 30px;
 }
 
-.display-3 {
+.display-3,
+.display-4 {
     font-size: 30px;
 }
 
@@ -176,21 +177,41 @@ header {
     font-size: 16px;
 }
 
+.display-5 {
+    font-size: 18px;
+}
+
+.display-6 {
+    font-size: 30px;
+}
+
 @media (min-width: 992px) {
     .display-1 {
         font-size: 50px;
     }
+
     .display-2 {
         font-size: 45px;
     }
     .display-3 {
         font-size: 40px;
     }
+
+    .display-4 {
+        font-size: 50px;
+    }
+
+    .display-text,
     .display-resume {
         font-size: 20px;
     }
-    .display-text {
+
+    .display-5 {
         font-size: 20px;
+    }
+
+    .display-6 {
+        font-size: 35px;
     }
 }
 
@@ -198,12 +219,24 @@ header {
     .display-1 {
         font-size: 70px;
     }
+
     .display-2 {
         font-size: 60px;
     }
-    .display-3 {
+
+    .display-3,
+    .display-4 {
         font-size: 56px;
     }
+
+    .display-5 {
+        font-size: 25px;
+    }
+
+    .display-6 {
+        font-size: 40px;
+    }
+
     .display-resume {
         font-size: 40px;
         line-height: 1.1em;
