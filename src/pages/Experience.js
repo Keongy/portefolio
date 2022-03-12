@@ -40,7 +40,7 @@ const Experience = () => {
                         <h1 className={`display-4 theme-title-${themeColor} mt-5 mt-lg-0`}>{steps.experience}</h1>
                         <h3 className={`display-5 theme-title-${themeColor} m-4`}>{steps.subtitle}</h3>
                         <div className="row justify-content-center">
-                            <div className="col-10">
+                            <div className="col-12 col-lg-10 p-0">
                                 <p className={`display-text theme-text-${themeColor}`}>{steps.resume}</p>
                             </div>
                         </div>
