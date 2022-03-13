@@ -190,81 +190,82 @@ const lang = {
                 {
                     link: 'portefolio',
                     title: 'Portefolio',
-                    description: 'Mon portefolio avec tout mes projets ainsi que mes expériences passées etc etc etc, ici tout est regroupé',
-                    date: 'Crée le 02/03/20222',
+                    description: "Mon site web perso rassemblant mon cursus, mes expérience ainsi qu'une partie de mes projets réalisés.",
                     logo: [
-                        'https://img.icons8.com/color/48/000000/html-5--v1.png',
-                        'https://img.icons8.com/color/48/000000/css3.png'
+                        'https://img.icons8.com/color/48/000000/react-native.png',
+                        "https://img.icons8.com/color/48/000000/sass-avatar.png",
+                        "https://img.icons8.com/color/48/000000/nodejs.png"
                     ]
                 },
                 {
                     link: 'app-note',
                     title: 'App-note',
-                    description: 'Mon portefolio avec tout mes projets ainsi que mes expériences passées etc etc etc, ici tout est regroupé',
-                    date: 'Crée le 02/03/20222',
+                    description: 'Application type ToDoList en un peu plus complexe.',
                     logo: [
-                        'https://img.icons8.com/color/48/000000/html-5--v1.png',
-                        'https://img.icons8.com/color/48/000000/css3.png'
+                        'https://img.icons8.com/color/48/000000/react-native.png',
+                        "https://img.icons8.com/color/48/000000/nodejs.png",
+                        "https://img.icons8.com/color/48/000000/redux.png"
                     ]
                 },
                 {
                     link: 'infinite-gallery ',
                     title: 'infinite-gallery ',
-                    description: 'Mon portefolio avec tout mes projets ainsi que mes expériences passées etc etc etc, ici tout est regroupé',
+                    description: "Gallerie d'image utilisant l'API unsplash. Le principe et de charger d'autres images de l'api dès que l'utilisateur arrive en bas de la page. L'application possède également un champ de recherche pour les images à afficher.",
                     date: 'Crée le 02/03/20222',
                     logo: [
-                        'https://img.icons8.com/color/48/000000/html-5--v1.png',
-                        'https://img.icons8.com/color/48/000000/css3.png'
+                        'https://img.icons8.com/color/48/000000/react-native.png',
+                        "https://img.icons8.com/color/48/000000/nodejs.png"
                     ]
                 },
                 {
                     link: 'twitch-clone',
                     title: 'twitch-clone',
-                    description: 'Mon portefolio avec tout mes projets ainsi que mes expériences passées etc etc etc, ici tout est regroupé',
+                    description: 'Projet en cours...',
                     date: 'Crée le 02/03/20222',
                     logo: [
-                        'https://img.icons8.com/color/48/000000/html-5--v1.png',
-                        'https://img.icons8.com/color/48/000000/css3.png'
+                        'https://img.icons8.com/color/48/000000/react-native.png',
+                        "https://img.icons8.com/color/48/000000/sass-avatar.png",
+                        "https://img.icons8.com/color/48/000000/nodejs.png"
                     ]
                 },
                 {
-                    link: 'ecommerce-with-redux',
+                    link: 'ecommerce-with-redux-',
                     title: 'ecommerce-with-redux',
-                    description: 'Mon portefolio avec tout mes projets ainsi que mes expériences passées etc etc etc, ici tout est regroupé',
-                    date: 'Crée le 02/03/20222',
+                    description: 'Même application web que ecommerce en utilisant Redux...',
                     logo: [
-                        'https://img.icons8.com/color/48/000000/html-5--v1.png',
-                        'https://img.icons8.com/color/48/000000/css3.png'
+                        'https://img.icons8.com/color/48/000000/react-native.png',
+                        "https://img.icons8.com/color/48/000000/nodejs.png",
+                        "https://img.icons8.com/color/48/000000/redux.png"
                     ]
                 },
                 {
                     link: 'ecommerce',
                     title: 'ecommerce',
-                    description: 'Mon portefolio avec tout mes projets ainsi que mes expériences passées etc etc etc, ici tout est regroupé',
-                    date: 'Crée le 02/03/20222',
+                    description: "Une application web de e-commerce simulant la vente de mug. Avec un shop, un panier avec mise à jour des produits directement dans le panier.",
                     logo: [
-                        'https://img.icons8.com/color/48/000000/html-5--v1.png',
-                        'https://img.icons8.com/color/48/000000/css3.png'
+                        'https://img.icons8.com/color/48/000000/react-native.png',
+                        "https://img.icons8.com/color/48/000000/nodejs.png",
+                        "https://img.icons8.com/color/48/000000/npm.png"
                     ]
                 },
                 {
                     link: 'auth-fire-base',
                     title: 'auth-fire-base',
-                    description: 'Mon portefolio avec tout mes projets ainsi que mes expériences passées etc etc etc, ici tout est regroupé',
-                    date: 'Crée le 02/03/20222',
+                    description: "Une simple application qui permet de s'enregistrer / s'identifier avec Firebase.",
                     logo: [
-                        'https://img.icons8.com/color/48/000000/html-5--v1.png',
-                        'https://img.icons8.com/color/48/000000/css3.png'
+                        'https://img.icons8.com/color/48/000000/react-native.png',
+                        "https://img.icons8.com/color/48/000000/nodejs.png",
+                        "https://img.icons8.com/color/48/000000/firebase.png"
                     ]
                 },
                 {
                     link: 'marvel-quiz',
                     title: 'marvel-quiz',
-                    description: 'Mon portefolio avec tout mes projets ainsi que mes expériences passées etc etc etc, ici tout est regroupé',
-                    date: 'Crée le 02/03/20222',
+                    description: "Application utilisant l'API Marvel, Firebase pour les inscriptions / authentification. Questionnaire sur les héros de marvel utilisant le principe de QCM avec différents niveaux de difficultés et un scoreboard qui résumé les bonnes et mauvaises réponses... ",
                     logo: [
-                        'https://img.icons8.com/color/48/000000/html-5--v1.png',
-                        'https://img.icons8.com/color/48/000000/css3.png'
+                        'https://img.icons8.com/color/48/000000/react-native.png',
+                        "https://img.icons8.com/color/48/000000/nodejs.png",
+                        "https://img.icons8.com/color/48/000000/firebase.png"
                     ]
                 }
             ]

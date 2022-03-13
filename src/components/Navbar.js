@@ -11,15 +11,13 @@ const Navbar = () => {
     const { theme } = useContext(ThemeContext)
     const { lang } = useContext(LangContext)
     const themeColor = theme ? 'dark' : 'light'
-    const bgColor = theme ? '' : 'bg-white'
     const selectedLang = lang ? language.FR.navbar : language.EN.navbar
 
-
     return (
-        <nav className="navbar navbar-expand-lg navbar-light p-4 mb-5">
+        <nav className="navbar navbar-expand-lg navbar-light pt-4 mb-0 mb-lg-5">
             <div className="container-fluid">
                 <div></div>
-                <button className={`navbar-toggler ${bgColor}`} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <button className={`navbar-toggler bg-white`} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
