@@ -130,7 +130,7 @@ const lang = {
                     {
                         title: 'Développeur web ',
                         subtitle: 'OP-Consulting · Freelance',
-                        description: `Développeur freelance depuis mars 2021`,
+                        description: `Développeur freelance depuis mars 2021.`,
                         year: '2022'
                     },
                     {
@@ -149,7 +149,7 @@ const lang = {
                     {
                         title: 'Ingénieur commercial',
                         subtitle: 'Cloud Eco, Sophia-antipolis',
-                        description: `Vente de solution telecom`,
+                        description: `Vente de solution télécom.`,
                         year: '2017'
                     }
                 ],
@@ -163,7 +163,7 @@ const lang = {
                     {
                         title: 'Account Manager',
                         subtitle: 'Xerox, Monaco',
-                        description: `Manager de comptes chez Xerox Monaco`,
+                        description: `Manager de comptes chez Xerox Monaco.`,
                         year: '2015'
                     },
                     {
@@ -175,7 +175,7 @@ const lang = {
                     {
                         title: 'Commercial',
                         subtitle: 'Atelier du Mistral',
-                        description: `Commercial en alternance dans un magasin de meubles sur mesure`,
+                        description: `Commercial en alternance dans un magasin de meubles sur mesure.`,
                         year: '2010'
                     }
                 ]
@@ -188,7 +188,7 @@ const lang = {
                 {
                     link: 'portefolio',
                     title: 'Portefolio',
-                    description: "Mon site web perso rassemblant mon cursus, mes expérience ainsi qu'une partie de mes projets réalisés.",
+                    description: "Mon site web perso rassemblant mon cursus, mes expériences ainsi qu'une partie de mes projets réalisés.",
                     date: 'Crée le 16/02/20222',
                     logo: [
                         'https://img.icons8.com/color/48/000000/react-native.png',
@@ -199,7 +199,7 @@ const lang = {
                 {
                     link: 'app-note',
                     title: 'App-note',
-                    description: 'Application type ToDoList en un peu plus complexe.',
+                    description: 'Application de type ToDoList plus complexe.',
                     date: 'Crée le 08/02/20222',
                     logo: [
                         'https://img.icons8.com/color/48/000000/react-native.png',
@@ -210,7 +210,7 @@ const lang = {
                 {
                     link: 'infinite-gallery ',
                     title: 'infinite-gallery ',
-                    description: "Gallerie d'image utilisant l'API unsplash. Le principe et de charger d'autres images de l'api dès que l'utilisateur arrive en bas de la page. L'application possède également un champ de recherche pour les images à afficher.",
+                    description: "Galerie d'images utilisant l'API unsplash. Le principe est de charger d'autres images de l'API dès que l'utilisateur arrive en bas de la page. L'application possède également un champ de recherche pour les images à afficher.",
                     date: 'Crée le 27/01/20222',
                     logo: [
                         'https://img.icons8.com/color/48/000000/react-native.png',
@@ -230,8 +230,8 @@ const lang = {
                 },
                 {
                     link: 'ecommerce-with-redux-',
-                    title: 'ecommerce-with-redux',
-                    description: 'Même application web que ecommerce en utilisant Redux...',
+                    title: 'e-commerce-with-redux',
+                    description: 'Même application web que e-commerce en utilisant Redux...',
                     date: 'Crée le 08/02/20222',
                     logo: [
                         'https://img.icons8.com/color/48/000000/react-native.png',
@@ -241,8 +241,8 @@ const lang = {
                 },
                 {
                     link: 'ecommerce',
-                    title: 'ecommerce',
-                    description: "Une application web de e-commerce simulant la vente de mug. Avec un shop, un panier avec mise à jour des produits directement dans le panier.",
+                    title: 'e-commerce',
+                    description: "Une application web de e-commerce simulant la vente de mugs. Avec un shop, un panier et une mise à jour des produits directement depuis/dans le panier.",
                     date: 'Crée le 01/02/20222',
                     logo: [
                         'https://img.icons8.com/color/48/000000/react-native.png',
@@ -264,7 +264,7 @@ const lang = {
                 {
                     link: 'marvel-quiz',
                     title: 'marvel-quiz',
-                    description: "Application utilisant l'API Marvel, Firebase pour les inscriptions / authentification. Questionnaire sur les héros de marvel utilisant le principe de QCM avec différents niveaux de difficultés et un scoreboard qui résumé les bonnes et mauvaises réponses... ",
+                    description: "Application utilisant l'API Marvel, Firebase pour les inscriptions / authentifications. Questionnaire sur les héros de Marvel utilisant le principe de QCM avec différents niveaux de difficultés et un scoreboard qui résume les bonnes et mauvaises réponses... ",
                     date: 'Crée le 11/01/20222',
                     logo: [
                         'https://img.icons8.com/color/48/000000/react-native.png',
@@ -411,7 +411,7 @@ const lang = {
                     {
                         title: 'Web developer',
                         subtitle: 'OP-Consulting · Freelance',
-                        description: `Freelance developer since March 2021`,
+                        description: `Freelance developer since March 2021.`,
                         year: '2022'
                     },
                     {
@@ -430,7 +430,7 @@ const lang = {
                     {
                         title: 'Sales Engineer',
                         subtitle: 'Cloud Eco, Sophia-antipolis',
-                        description: `Sale of telecom solution`,
+                        description: `Sale of telecom solution.`,
                         year: '2017'
                     }
                 ],
@@ -444,7 +444,7 @@ const lang = {
                     {
                         title: 'Account Manager',
                         subtitle: 'Xerox, Monaco',
-                        description: `Account Manager at Xerox Monaco`,
+                        description: `Account Manager at Xerox Monaco.`,
                         year: '2015'
                     },
                     {
@@ -456,7 +456,7 @@ const lang = {
                     {
                         title: 'Commercial',
                         subtitle: 'Atelier du Mistral',
-                        description: `Work-study commercial in a custom-made furniture store`,
+                        description: `Work-study commercial in a custom-made furniture store.`,
                         year: '2010'
                     }
                 ]
