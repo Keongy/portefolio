@@ -23,7 +23,15 @@ const Contact = () => {
                             <p className={`display-text theme-text-${themeColor} m-3`}>{contact.resume}</p>
                         </div>
                     </div>
-                    <div className='mt-4 m-lg-4'>
+                    <div className='m-2'>
+                        <a href="https://www.linkedin.com/in/olivier-pichon-317b4b83/" target={'_blank'} rel="noreferrer">
+                            <img src="https://img.icons8.com/color/48/000000/linkedin.png" alt='linkedin' />
+                        </a>
+                        <a href="https://github.com/Keongy" target={'_blank'} rel="noreferrer">
+                            <img src="https://img.icons8.com/ios-glyphs/48/000000/github.png" alt='github' />
+                        </a>
+                    </div>
+                    <div className='mt-4 p-3 m-lg-4'>
                         <a className="contact-button" href="https://drive.google.com/file/d/1POOZlXfrP2cEjheAPw7jrm5Ybt-Rw2EJ/view?usp=sharing" target={'_blank'} rel="noreferrer">
                             {contact.button}
                         </a>

@@ -1,6 +1,8 @@
 .contact {
-    min-height: calc(100vh - 165px);
-
+    min-height: calc(100vh - 72px);
+    @media (min-width: 992px) {
+        min-height: calc(100vh - 149px);
+    }
     .contact-button {
         text-decoration: none;
         background-color: $bg-dark-light;
