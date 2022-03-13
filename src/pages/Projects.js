@@ -44,7 +44,7 @@ const Projects = () => {
                 <div className="text-center mt-3">
                     <button className="btn btn-primary"><a href="https://github.com/Keongy" rel="noreferrer" target="_blank" className='text-white' style={{
                         textDecoration: 'none',
-                    }}>Voir plus...</a></button>
+                    }}>{project.seeMore}</a></button>
                 </div>
             </div>
             <div className="row pb-5"></div>
