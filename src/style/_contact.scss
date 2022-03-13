@@ -2,6 +2,7 @@
     min-height: calc(100vh - 165px);
 
     .contact-button {
+        text-decoration: none;
         background-color: $bg-dark-light;
         border: 1px solid $bg-dark-light;
         font-weight: 500;
@@ -16,7 +17,7 @@
         color: $title-dark;
 
         &:hover {
-            background-color: transparent;
+            background-color: $bg-dark;
             transition: background-color 0.2s ease-in-out;
             -webkit-transition: background-color 0.2s ease-in-out;
             -moz-transition: background-color 0.2s ease-in-out;
