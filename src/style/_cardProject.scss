@@ -32,5 +32,29 @@
             -webkit-line-clamp: 2;
             overflow: hidden;
         }
+
+        .logo-row {
+            position: relative;
+            overflow: hidden;
+
+            .logo {
+                p {
+                    opacity: 0;
+                    background-color: black;
+                    padding: 0 2px;
+                    margin: 0;
+                }
+                &:hover {
+                    p {
+                        opacity: 1;
+                    }
+                }
+            }
+
+            img {
+                height: 35px;
+                padding: 0 5px;
+            }
+        }
     }
 }

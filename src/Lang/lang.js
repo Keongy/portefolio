@@ -190,88 +190,175 @@ const lang = {
                     title: 'Portefolio',
                     description: "Mon site web perso rassemblant mon cursus, mes expériences ainsi qu'une partie de mes projets réalisés.",
                     date: 'Crée le 16/02/20222',
-                    logo: [
-                        'https://img.icons8.com/color/48/000000/react-native.png',
-                        "https://img.icons8.com/color/48/000000/sass-avatar.png",
-                        "https://img.icons8.com/color/48/000000/nodejs.png"
-                    ]
-                },
-                {
-                    link: 'app-note',
-                    title: 'App-note',
-                    description: 'Application de type ToDoList plus complexe.',
-                    date: 'Crée le 08/02/20222',
-                    logo: [
-                        'https://img.icons8.com/color/48/000000/react-native.png',
-                        "https://img.icons8.com/color/48/000000/nodejs.png",
-                        "https://img.icons8.com/color/48/000000/redux.png"
-                    ]
-                },
-                {
-                    link: 'infinite-gallery ',
-                    title: 'infinite-gallery ',
-                    description: "Galerie d'images utilisant l'API unsplash. Le principe est de charger d'autres images de l'API dès que l'utilisateur arrive en bas de la page. L'application possède également un champ de recherche pour les images à afficher.",
-                    date: 'Crée le 27/01/20222',
-                    logo: [
-                        'https://img.icons8.com/color/48/000000/react-native.png',
-                        "https://img.icons8.com/color/48/000000/nodejs.png"
-                    ]
-                },
-                {
-                    link: 'twitch-clone',
-                    title: 'twitch-clone',
-                    description: 'Projet en cours...',
-                    date: 'Crée le 14/02/20222',
-                    logo: [
-                        'https://img.icons8.com/color/48/000000/react-native.png',
-                        "https://img.icons8.com/color/48/000000/sass-avatar.png",
-                        "https://img.icons8.com/color/48/000000/nodejs.png"
-                    ]
-                },
-                {
-                    link: 'ecommerce-with-redux-',
-                    title: 'e-commerce-with-redux',
-                    description: 'Même application web que e-commerce en utilisant Redux...',
-                    date: 'Crée le 08/02/20222',
-                    logo: [
-                        'https://img.icons8.com/color/48/000000/react-native.png',
-                        "https://img.icons8.com/color/48/000000/nodejs.png",
-                        "https://img.icons8.com/color/48/000000/redux.png"
-                    ]
-                },
-                {
-                    link: 'ecommerce',
-                    title: 'e-commerce',
-                    description: "Une application web de e-commerce simulant la vente de mugs. Avec un shop, un panier et une mise à jour des produits directement depuis/dans le panier.",
-                    date: 'Crée le 01/02/20222',
-                    logo: [
-                        'https://img.icons8.com/color/48/000000/react-native.png',
-                        "https://img.icons8.com/color/48/000000/nodejs.png",
-                        "https://img.icons8.com/color/48/000000/npm.png"
-                    ]
-                },
-                {
-                    link: 'auth-fire-base',
-                    title: 'auth-fire-base',
-                    description: "Une simple application qui permet de s'enregistrer / s'identifier avec Firebase.",
-                    date: 'Crée le 29/01/20222',
-                    logo: [
-                        'https://img.icons8.com/color/48/000000/react-native.png',
-                        "https://img.icons8.com/color/48/000000/nodejs.png",
-                        "https://img.icons8.com/color/48/000000/firebase.png"
-                    ]
+                    logo:
+                    {
+                        logos: [{
+                            img: 'https://img.icons8.com/color/48/000000/react-native.png',
+                            title: 'React'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/sass-avatar.png",
+                            title: 'Sass'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/nodejs.png",
+                            title: 'Node.js'
+                        }
+                        ],
+                    }
                 },
                 {
                     link: 'marvel-quiz',
                     title: 'marvel-quiz',
                     description: "Application utilisant l'API Marvel, Firebase pour les inscriptions / authentifications. Questionnaire sur les héros de Marvel utilisant le principe de QCM avec différents niveaux de difficultés et un scoreboard qui résume les bonnes et mauvaises réponses... ",
                     date: 'Crée le 11/01/20222',
-                    logo: [
-                        'https://img.icons8.com/color/48/000000/react-native.png',
-                        "https://img.icons8.com/color/48/000000/nodejs.png",
-                        "https://img.icons8.com/color/48/000000/firebase.png"
-                    ]
-                }
+                    logo:
+                    {
+                        logos: [{
+                            img: 'https://img.icons8.com/color/48/000000/react-native.png',
+                            title: 'React'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/nodejs.png",
+                            title: 'Node.js'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/firebase.png",
+                            title: 'Firebase'
+                        }
+                        ],
+                    }
+                },
+                {
+                    link: 'app-note',
+                    title: 'App-note',
+                    description: 'Application de type ToDoList plus complexe.',
+                    date: 'Crée le 08/02/20222',
+                    logo:
+                    {
+                        logos: [{
+                            img: 'https://img.icons8.com/color/48/000000/react-native.png',
+                            title: 'React'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/nodejs.png",
+                            title: 'Node.js'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/redux.png",
+                            title: 'Redux'
+                        }
+                        ],
+                    }
+                },
+                {
+                    link: 'infinite-gallery ',
+                    title: 'infinite-gallery ',
+                    description: "Galerie d'images utilisant l'API unsplash. Le principe est de charger d'autres images de l'API dès que l'utilisateur arrive en bas de la page. L'application possède également un champ de recherche pour les images à afficher.",
+                    date: 'Crée le 27/01/20222',
+                    logo:
+                    {
+                        logos: [{
+                            img: 'https://img.icons8.com/color/48/000000/react-native.png',
+                            title: 'React'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/nodejs.png",
+                            title: 'Node.js'
+                        }
+                        ],
+                    }
+
+                },
+                {
+                    link: 'twitch-clone',
+                    title: 'twitch-clone',
+                    description: 'Projet en cours...',
+                    date: 'Crée le 14/02/20222',
+                    logo:
+                    {
+                        logos: [{
+                            img: 'https://img.icons8.com/color/48/000000/react-native.png',
+                            title: 'React'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/sass-avatar.png",
+                            title: 'Sass'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/nodejs.png",
+                            title: 'Node.js'
+                        }
+                        ],
+                    }
+                },
+                {
+                    link: 'ecommerce-with-redux-',
+                    title: 'e-commerce-with-redux',
+                    description: 'Même application web que e-commerce en utilisant Redux...',
+                    date: 'Crée le 08/02/20222',
+                    logo:
+                    {
+                        logos: [{
+                            img: 'https://img.icons8.com/color/48/000000/react-native.png',
+                            title: 'React'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/nodejs.png",
+                            title: 'Node.js'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/redux.png",
+                            title: 'Redux'
+                        }
+                        ],
+                    }
+                },
+                {
+                    link: 'ecommerce',
+                    title: 'e-commerce',
+                    description: "Une application web de e-commerce simulant la vente de mugs. Avec un shop, un panier et une mise à jour des produits directement depuis/dans le panier.",
+                    date: 'Crée le 01/02/20222',
+                    logo:
+                    {
+                        logos: [{
+                            img: 'https://img.icons8.com/color/48/000000/react-native.png',
+                            title: 'React'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/nodejs.png",
+                            title: 'Node.js'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/npm.png",
+                            title: 'Npm'
+                        }
+                        ],
+                    }
+
+                },
+                {
+                    link: 'auth-fire-base',
+                    title: 'auth-fire-base',
+                    description: "Une simple application qui permet de s'enregistrer / s'identifier avec Firebase.",
+                    date: 'Crée le 29/01/20222',
+                    logo:
+                    {
+                        logos: [{
+                            img: 'https://img.icons8.com/color/48/000000/react-native.png',
+                            title: 'React'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/nodejs.png",
+                            title: 'Node.js'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/firebase.png",
+                            title: 'Firebase'
+                        }
+                        ]
+                    },
+                },
             ],
             seeMore: 'Voir plus...'
         },
@@ -471,88 +558,181 @@ const lang = {
                     title: 'Portefolio',
                     description: "My personal website bringing together my curriculum, my experience as well as some of my completed projects.",
                     date: 'Created on 02/16/20222',
-                    logo: [
-                        'https://img.icons8.com/color/48/000000/react-native.png',
-                        "https://img.icons8.com/color/48/000000/sass-avatar.png",
-                        "https://img.icons8.com/color/48/000000/nodejs.png"
-                    ]
-                },
-                {
-                    link: 'app-note',
-                    title: 'App-note',
-                    description: 'ToDoList type application in a little more complex.',
-                    date: 'Created on 08/02/20222',
-                    logo: [
-                        'https://img.icons8.com/color/48/000000/react-native.png',
-                        "https://img.icons8.com/color/48/000000/nodejs.png",
-                        "https://img.icons8.com/color/48/000000/redux.png"
-                    ]
-                },
-                {
-                    link: 'infinite-gallery ',
-                    title: 'infinite-gallery ',
-                    description: "Image gallery using the unsplash API. The principle is to load other images from the api as soon as the user arrives at the bottom of the page. The app also has a search box for images to display.",
-                    date: 'Created on 01/27/20222',
-                    logo: [
-                        'https://img.icons8.com/color/48/000000/react-native.png',
-                        "https://img.icons8.com/color/48/000000/nodejs.png"
-                    ]
-                },
-                {
-                    link: 'twitch-clone',
-                    title: 'twitch-clone',
-                    description: 'Ongoing project...',
-                    date: 'Created on 02/14/20222',
-                    logo: [
-                        'https://img.icons8.com/color/48/000000/react-native.png',
-                        "https://img.icons8.com/color/48/000000/sass-avatar.png",
-                        "https://img.icons8.com/color/48/000000/nodejs.png"
-                    ]
-                },
-                {
-                    link: 'ecommerce-with-redux-',
-                    title: 'ecommerce-with-redux',
-                    description: 'Same web application as ecommerce using Redux...',
-                    date: 'Created on 08/02/20222',
-                    logo: [
-                        'https://img.icons8.com/color/48/000000/react-native.png',
-                        "https://img.icons8.com/color/48/000000/nodejs.png",
-                        "https://img.icons8.com/color/48/000000/redux.png"
-                    ]
-                },
-                {
-                    link: 'ecommerce',
-                    title: 'ecommerce',
-                    description: "An e-commerce web application simulating the sale of mugs. With a shop, a basket with product updates directly in the basket.",
-                    date: 'Created on 01/02/20222',
-                    logo: [
-                        'https://img.icons8.com/color/48/000000/react-native.png',
-                        "https://img.icons8.com/color/48/000000/nodejs.png",
-                        "https://img.icons8.com/color/48/000000/npm.png"
-                    ]
-                },
-                {
-                    link: 'auth-fire-base',
-                    title: 'auth-fire-base',
-                    description: "A simple application that allows to register / identify with Firebase.",
-                    date: 'Created on 01/29/20222',
-                    logo: [
-                        'https://img.icons8.com/color/48/000000/react-native.png',
-                        "https://img.icons8.com/color/48/000000/nodejs.png",
-                        "https://img.icons8.com/color/48/000000/firebase.png"
-                    ]
+                    logo:
+                    {
+                        logos: [{
+                            img: 'https://img.icons8.com/color/48/000000/react-native.png',
+                            title: 'React'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/sass-avatar.png",
+                            title: 'Sass'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/nodejs.png",
+                            title: 'Node.js'
+                        }
+                        ],
+                    }
+
                 },
                 {
                     link: 'marvel-quiz',
                     title: 'marvel-quiz',
                     description: "Application using Marvel API, Firebase for registrations/authentication. Questionnaire on marvel heroes using the MCQ principle with different levels of difficulty and a scoreboard that summarizes the right and wrong answers...",
                     date: 'Created on 11/01/20222',
-                    logo: [
-                        'https://img.icons8.com/color/48/000000/react-native.png',
-                        "https://img.icons8.com/color/48/000000/nodejs.png",
-                        "https://img.icons8.com/color/48/000000/firebase.png"
-                    ]
-                }
+                    logo:
+                    {
+                        logos: [{
+                            img: 'https://img.icons8.com/color/48/000000/react-native.png',
+                            title: 'React'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/nodejs.png",
+                            title: 'Node.js'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/firebase.png",
+                            title: 'Firebase'
+                        }
+                        ],
+                    }
+                },
+                {
+                    link: 'app-note',
+                    title: 'App-note',
+                    description: 'ToDoList type application in a little more complex.',
+                    date: 'Created on 08/02/20222',
+                    logo:
+                    {
+                        logos: [{
+                            img: 'https://img.icons8.com/color/48/000000/react-native.png',
+                            title: 'React'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/nodejs.png",
+                            title: 'Node.js'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/redux.png",
+                            title: 'Redux'
+                        }
+                        ],
+                    }
+
+                },
+                {
+                    link: 'infinite-gallery ',
+                    title: 'infinite-gallery ',
+                    description: "Image gallery using the unsplash API. The principle is to load other images from the api as soon as the user arrives at the bottom of the page. The app also has a search box for images to display.",
+                    date: 'Created on 01/27/20222',
+                    logo:
+                    {
+                        logos: [{
+                            img: 'https://img.icons8.com/color/48/000000/react-native.png',
+                            title: 'React'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/nodejs.png",
+                            title: 'Node.js'
+                        }
+                        ],
+                    }
+
+                },
+                {
+                    link: 'twitch-clone',
+                    title: 'twitch-clone',
+                    description: 'Ongoing project...',
+                    date: 'Created on 02/14/20222',
+                    logo:
+                    {
+                        logos: [{
+                            img: 'https://img.icons8.com/color/48/000000/react-native.png',
+                            title: 'React'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/sass-avatar.png",
+                            title: 'Sass'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/nodejs.png",
+                            title: 'Node.js'
+                        }
+                        ],
+                    }
+
+                },
+                {
+                    link: 'ecommerce-with-redux-',
+                    title: 'ecommerce-with-redux',
+                    description: 'Same web application as ecommerce using Redux...',
+                    date: 'Created on 08/02/20222',
+                    logo:
+                    {
+                        logos: [{
+                            img: 'https://img.icons8.com/color/48/000000/react-native.png',
+                            title: 'React'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/nodejs.png",
+                            title: 'Node.js'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/redux.png",
+                            title: 'Redux'
+                        }
+                        ],
+                    }
+
+                },
+                {
+                    link: 'ecommerce',
+                    title: 'ecommerce',
+                    description: "An e-commerce web application simulating the sale of mugs. With a shop, a basket with product updates directly in the basket.",
+                    date: 'Created on 01/02/20222',
+                    logo:
+                    {
+                        logos: [{
+                            img: 'https://img.icons8.com/color/48/000000/react-native.png',
+                            title: 'React'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/nodejs.png",
+                            title: 'Node.js'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/npm.png",
+                            title: 'Npm'
+                        }
+                        ],
+                    }
+
+                },
+                {
+                    link: 'auth-fire-base',
+                    title: 'auth-fire-base',
+                    description: "A simple application that allows to register / identify with Firebase.",
+                    date: 'Created on 01/29/20222',
+                    logo:
+                    {
+                        logos: [{
+                            img: 'https://img.icons8.com/color/48/000000/react-native.png',
+                            title: 'React'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/nodejs.png",
+                            title: 'Node.js'
+                        },
+                        {
+                            img: "https://img.icons8.com/color/48/000000/firebase.png",
+                            title: 'Firebase'
+                        }
+                        ]
+                    },
+
+
+                },
             ],
             seeMore: 'See more...'
         },

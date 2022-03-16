@@ -13,10 +13,13 @@ const CardProject = ({ link, title, description, date, logos, themeColor }) => {
                         <div className="col-auto p-0">
                             <p className={`theme-text-${themeColor}`}>{date}</p>
                         </div>
-                        <div className="col-auto p-0">
-                            {logos.map((logo, index) => {
+                        <div className="col-auto logo-row d-flex p-0">
+                            {logos.logos.map((logo, index) => {
                                 return (
-                                    <img key={index} src={logo} alt="" />
+                                    <div className='logo text-center' key={index}>
+                                        <p>{logo.title}</p>
+                                        <img src={logo.img} alt="" />
+                                    </div>
                                 )
                             })}
                         </div>
