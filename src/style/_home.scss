@@ -1,4 +1,24 @@
 .home {
+    .home-logo {
+        position: relative;
+        margin-top: 20px;
+        p {
+            position: absolute;
+            opacity: 0;
+            background-color: black;
+            padding: 0 2px;
+            margin: 0;
+        }
+        &:hover {
+            p {
+                top: -20px;
+                opacity: 1;
+                color: white;
+                text-align: center;
+            }
+        }
+    }
+
     li {
         margin: 10px 10px 10px 0;
     }
