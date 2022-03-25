@@ -1,0 +1,26 @@
+.card-project-wp {
+    transition: transform 0.2s ease-in-out;
+    -webkit-transition: transform 0.2s ease-in-out;
+    -moz-transition: transform 0.2s ease-in-out;
+    -ms-transition: transform 0.2s ease-in-out;
+    -o-transition: transform 0.2s ease-in-out;
+    &:hover {
+        transform: scale(1.03);
+        -webkit-transform: scale(1.03);
+        -moz-transform: scale(1.03);
+        -ms-transform: scale(1.03);
+        -o-transform: scale(1.03);
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    img {
+        width: 100%;
+        overflow: hidden;
+        &:hover {
+            opacity: 0.4;
+        }
+    }
+}

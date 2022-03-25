@@ -184,6 +184,8 @@ const lang = {
         projects: {
             title: 'Projets',
             resume: "J'ai décidé de me spécialiser sur React.js. La majorité de mes projets sont conçus en utilisant ce language ainsi que Node.js et Npx create-react-app. J'ai également utilisé des API REST et d'autres outils tel que Bootstrap, Firebase, Redux...",
+            reactProject: 'Projets React.js',
+            wordpressProject: 'Projets Wordpress',
             card: [
                 {
                     link: 'portefolio',
@@ -360,7 +362,25 @@ const lang = {
                     },
                 },
             ],
-            seeMore: 'Voir plus...'
+            seeMore: 'Voir plus...',
+            cardWP: [
+                {
+                    title: 'Restaurant Signature',
+                    background: './img/restaurant_signature.jpg'
+                },
+                {
+                    title: 'Restaurant Signature',
+                    background: './img/restaurant_signature.jpg'
+                },
+                {
+                    title: 'Restaurant Signature',
+                    background: './img/restaurant_signature.jpg'
+                },
+                {
+                    title: 'Restaurant Signature',
+                    background: './img/restaurant_signature.jpg'
+                }
+            ]
         },
         contact: {
             title: 'Contactez-moi',
@@ -552,6 +572,8 @@ const lang = {
         projects: {
             title: 'Projects',
             resume: "I decided to specialize in React.js. The majority of my projects are designed using this language as well as Node.js and Npx create-react-app. I also used REST APIs and other tools such as Bootstrap, Firebase, Redux...",
+            reactProject: 'React.js Projects',
+            wordpressProject: 'Wordpress Projects',
             card: [
                 {
                     link: 'portefolio',
@@ -734,7 +756,25 @@ const lang = {
 
                 },
             ],
-            seeMore: 'See more...'
+            seeMore: 'See more...',
+            cardWP: [
+                {
+                    title: 'Restaurant Signature',
+                    background: '../img/restaurant_signature.jpg'
+                },
+                {
+                    title: 'Restaurant Signature',
+                    background: './img/restaurant_signature.jpg'
+                },
+                {
+                    title: 'Restaurant Signature',
+                    background: './img/restaurant_signature.jpg'
+                },
+                {
+                    title: 'Restaurant Signature',
+                    background: './img/restaurant_signature.jpg'
+                }
+            ]
         },
         contact: {
             title: 'Contact Me',

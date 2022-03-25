@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import CardProject from '../components/CardProject';
+import CardWP from '../components/CardWP';
 import { LangContext } from '../context/LangContext';
 import { ThemeContext } from '../context/ThemeContext';
 import language from '../Lang/lang';
@@ -28,6 +29,7 @@ const Projects = () => {
                 </div>
             </div>
             <div className="row justify-content-center mt-lg-5 pt-5">
+                <h2 className={`theme-title-${themeColor}`}>{project.reactProject}</h2>
                 {project.card.map((card, index) => {
                     return (
                         <CardProject
@@ -46,6 +48,18 @@ const Projects = () => {
                     }}>{project.seeMore}</a></button>
                 </div>
             </div>
+            {/* <div className="row justify-content-center mt-lg-5 pt-5">
+                <h2 className={`theme-title-${themeColor}`}>{project.wordpressProject}</h2>
+                {project.cardWP.map((card, index) => {
+                    return (
+                        <CardWP
+                            key={index}
+                            title={card.title}
+                            background={card.background}
+                            themeColor={themeColor}
+                        />)
+                })}
+            </div> */}
             <div className="row pb-5"></div>
         </div>
     );

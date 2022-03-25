@@ -1,5 +1,4 @@
 import React from 'react';
-import '../style/_cardProject.scss';
 
 const CardProject = ({ link, title, description, date, logos, themeColor }) => {
 
